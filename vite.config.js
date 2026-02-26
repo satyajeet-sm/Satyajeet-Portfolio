@@ -12,7 +12,7 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base: "/Satyajeet-Portfolio/",
+  base: "/",
 
   resolve: {
     alias: {
