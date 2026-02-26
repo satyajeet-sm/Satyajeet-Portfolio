@@ -1,12 +1,16 @@
 import { ArrowUpRight, Github } from "lucide-react";
 import AnimatedBorderButton from "@/components/AnimatedBorderButton";
+import project1 from "@/assets/project1.jpeg";
+import project2 from "@/assets/project2.jpeg";
+import project3 from "@/assets/project3.png";
+import project4 from "@/assets/project4.jpg";
 
 const projects = [
 {
   title: "Canteen Management System",
   description:
     "A web-based application designed to streamline the operations of a canteen, allowing users to place orders, manage inventory, and process payments efficiently.",
-  image: "src/assets/27f7d70c-bcae-41ca-a200-212f5e5affcb.jpeg",
+  image: project1,
   tags: ["HTML","CSS","React","C#","MySQL"],
   github: "https://github.com/satyajeet-sm/canteen-management-system"
 
@@ -15,7 +19,7 @@ const projects = [
   title: "Smart Attendance System using Face Recognition with voice assistance",
   description:
     "A web-based application designed to automate attendance tracking and management for educational institutions.",
-  image: "src/assets/b8ffcbcb-62f9-4737-b1ba-4e5719afd402 (1).jpeg",
+  image: project2,
   tags: ["Python","OpenCV","Face Recognition","Text to Speech","tikinter","sqlite3"],
   github: "https://github.com/satyajeet-sm/Smart-attendance-system-with-Face-recognition-and-voice-assistant-"
 },
@@ -23,7 +27,7 @@ const projects = [
   title: "Portfolio Website",
   description:
     "A personal portfolio website to showcase my projects, skills, and experience as a developer.",
-  image: "src/assets/Gemini_Generated_Image_weagsjweagsjweag.png",
+  image:project3,
   tags: ["HTML", "TailwindCSS", "JavaScript", "React"],
   github: "https://github.com/satyajeet-sm/portfolio-website"
 },
@@ -31,7 +35,7 @@ const projects = [
   title: "HealthCare support web App with AI Chatbot",
   description:
     "A web-based application designed to provide healthcare support and assistance through an AI-powered chatbot.",
-  image: "src/assets/unnamed.jpg",
+  image: project4,
   tags: ["HTML", "CSS", "JavaScript","False API"],
   github: "https://github.com/satyajeet-sm/Health-care-support"
 }

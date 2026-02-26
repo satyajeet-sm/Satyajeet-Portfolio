@@ -1,6 +1,7 @@
 import {Button} from '@/components/Button';
 import {ArrowRight, ChevronDown, Github, Instagram, Linkedin,Download} from 'lucide-react';
 import heroImage from "@/assets/hero-image.png";
+import profile from "@/assets/profile.jpg";
 import AnimatedBorderButton from '@/components/AnimatedBorderButton';
 
 const skills=[
@@ -102,12 +103,12 @@ const Hero = () => {
           {/*Right Column -// Image Content*/}
           <div className='relative animate-fade-in animation-delay-300'>
             {/* Profile image */}
-            <div className='relative max-w-mdmx-auto'>
-              <div className='absolute inset-0  rounded-3xl bg-linear-to-br
+            <div className='relative max-w-md mx-auto'>
+              <div className='absolute inset-0  rounded-3xl bg-gradient-to-br
                from-primary/20 via-transparent
-                to-secondary/10 blur-2xl animate-pluse' />
-              <div className='relative glass rounded-3xl p-2 glow-broder'>
-                <img src="src/assets/20260202_114657-IMG_STYLE.jpg" alt="Satyajeet" className='w-full aspect-4/5 object-cover rounded-2xl' />
+                to-secondary/10 blur-2xl animate-pulse' />
+              <div className='relative glass rounded-3xl p-2 glow-border'>
+                <img src={profile} alt="profile" className='w-full aspect-4/5 object-cover rounded-2xl' />
 
                 {/* Floating Badge*/}
                 <div className='absolute -bottom-4 -right-4 glass rounded-xl px-4 py-3 animate-float'>
